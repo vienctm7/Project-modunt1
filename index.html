@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./home.css/index.css">
+</head>
+
+<body>
+    <header class="header_top">
+        <div class="header_logo">
+            <a href="index.html">
+                <img src="./image/logo.webp" alt="">
+            </a>
+        </div>
+        <div class="search-input">
+            <input style="border-color: green;" type="text" placeholder="Tìm kiếm...">
+            <button style="border-color: green; background-color: green; color: white;width: 30px;"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="phone-header">
+            <span>Tư vấn mua hàng online</span><br>
+            <a href="tel: 039 364 5238">0393645238</a>
+        </div>
+    </header>
+    <hr>
+    <nav>
+        <div class="logotitle"></div>
+        <div class="search"></div>
+        <div class="phonenumber"></div>
+        <div class="logocart"></div>
+    </nav>
+    <section>
+        <div class="manuproduct"></div>
+        <div class="element"></div>
+    </section>
+    <nav>
+        <div class="header_top">
+            <div class="maintitle">
+                <h1>
+                    <a href="index.html" style="text-decoration: none; color: white;"> Trang chủ</a>
+                </h1>
+            </div>
+            <div class="nav_menu">
+                <div class="dropdown">
+                    <a class="dropbtn">SẢN PHẨM</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Công tắc thông minh</a></li>
+                        <li><a href="#">Khóa cửa thông minh</a></li>
+                        <li><a href="#">Trung tâm điều khiển nhà</a></li>
+                        <li><a href="#">Báo động an ninh</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn">CHÍNH SÁCH</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Bảo hành sản phẩm</a></li>
+                        <li><a href="#">Giao hàng</a></li>
+                        <li><a href="#">Đổi trả</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn">TIN TỨC</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Thời tiết</a></li>
+                        <li><a href="#">Cập nhật sản phẩm mới</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn">HƯỚNG DẪN </a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Mua hàng</a></li>
+                        <li><a href="#">Phương thức thanh toán</a></li>
+                        <li><a href="#">Địa điểm</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="login" id="change">
+                <i class="fa-solid fa-user" style="color:white; font-size: 15px; padding-right: 5px"></i>
+                <a href="login.html" style="color: white; text-decoration: none; font-size: 20px"
+                    id="changeIndex">Đăng nhập/Đăng ký</a>
+            </div>
+        </div>
+        <div class="logoCartwindow">
+            <a href="./cart.html" class="logoCart"><i class="fa-solid fa-cart-shopping" style="color: white"></i></a>
+        </div>
+    </nav>
+    <hr>
+    <div class="section">
+        <h2>
+            <strong>TẤT CẢ SẢN PHẨM</strong>
+        </h2>
+    </div>
+    <div class="product" id="product">
+        <!-- <div class="element">
+            <img src="./image/congtacchunhat.webp" width="130px" height="130px"
+                alt="công tắc chữ nhật" />
+            <p class="nameproduct">Công tắc wifi bình nóng lạnh hẹn giờ tắt hình chữ nhật</p>
+            <span class="price" style="color: #1939bc">550.000 VNĐ</span>
+            <button class="addCart" onclick="addToCart()">
+                Thêm giỏ hàng
+            </button>
+        </div> -->
+    </div>
+    <div class="footer">
+        <div class="footer-div1">
+            <h4> Giới thiệu </h4>
+            <p>SmartHomePlus đem tiện nghi đến ngôi nhà của bạn, bản quyền thuộc công ty TNHH Nhà Thông Minh SONIX</p>
+            <ul>
+                <li>Giới thiệu</li>
+                <li>Tin tức</li>
+                <li>Đại lý</li>
+                <li>Liên hệ</li>
+            </ul>
+        </div>
+        <div class="footer-div2">
+            <h4>Chính sách</h4>
+            <ul>
+                <li>Chính sách vận chuyển</li>
+                <li>Chính sách đổi trả</li>
+                <li>Chính sách bảo mật</li>
+                <li>Chính sách đại lý</li>
+                <li>Phương thức thanh toán</li>
+                <li>Thông tin chuyển khoản</li>
+                <li>Hướng dẫn mua hàng</li>
+            </ul>
+        </div>
+        <div class="footer-div3">
+            <h4>Thông tin liên hệ</h4>
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>
+                    Số 69 ngõ 96, Trần Quang Diệu, Ô Chợ Dừa, Đống Đa, HN</span>
+            </p>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                <span>096-669-996</span>
+            </p>
+            <p>
+                <i class="fa-regular fa-envelope"></i>
+                vienctm7@gmail.com
+            </p>
+        </div>
+        <div class="footer-div4">
+            <h4>Kết nối với chúng tôi</h4>
+            <div class="iconbot">
+                <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="telegram.com"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="./home.js/index.js">
+    // let product = [
+    //     {
+    //         anh: "./image/congtacchunhat.webp",
+    //         name: "Công tắc wifi bình nóng lạnh hẹn giờ tắt hình chữ nhật",
+    //         price: "550000 ",
+    //         sl: 1,
+    //         id: 11,
+    //     },
+    //     {
+    //         anh: "./image/cambien_master.webp",
+    //         name: "Cảm biến ánh sáng wifi",
+    //         price: "450000",
+    //         sl: 1,
+    //         id: 22,
+    //     },
+    //     {
+    //         anh: "./image/congtacvuong.webp",
+    //         name: "Công tắc wifi bình nóng lạnh hẹn giờ tắt hình vuông",
+    //         price: "990000",
+    //         sl: 1,
+    //         id: 33
+    //     }, 
+    //     {
+    //         anh: "./image/cutnoinhanh.png",
+    //         name: "Cut nối điện nhanh",
+    //         price: "22000",
+    //         sl: 1,
+    //         id: 44,
+    //     },
+    //     {
+    //         anh: "./image/donghodonhietdodoam.webp",
+    //         name: "Đồng hồ cảm biến nhiệt độ độ ẩm",
+    //         price: "190000",
+    //         sl: 1,
+    //         id: 55,
+    //     },
+    //     {
+    //         anh: "./image/khoacuathongminh.webp",
+    //         name: "Khóa cửa thông minh",
+    //         price: "1990000",
+    //         sl: 1,
+    //         id: 66,
+    //     },
+    // ]
+    // localStorage.setItem("product", JSON.stringify(product));
+</script>
+
+</html>
